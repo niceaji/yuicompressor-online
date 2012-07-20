@@ -1,0 +1,17 @@
+{
+  "name": "yuicompressor-online",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.11"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "author": "aji",
+  "homepage": "uix.kr",
+  "repository": {
+    "type": "git",
+    "url": "git@dgit.co:aji/yuicompressor-online.git"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <title>Yuicompressor Online</title>
+    <link href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-combined.min.css" rel="stylesheet" media="screen" />
+    <style>
+    body {padding-top: 50px}
+    h2 {margin-top:20px;}
+
+    </style>
+</head>
+<body>
+
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="#">Yuicompressor Online</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+	<h2>Yuicompressor Online?</h2>
+	<p>js,css 압축할때 매번  환경구성하기가 번거로움. 간단하게 api형태로 js파일을 던지면 압축된 결과를 리턴!!</p>
+
+	<h2>사용방법</h2>
+	<pre><code>curl -F upfile=@test.js  http://{host}/compress</code></pre>
+
+	<h2>POST 파라미터</h2>
+
+	<table class="table table-striped">
+	  <thead>
+	    <tr>
+	      <th>이름</th>
+	      <th>설명</th>
+	      <th>기본값</th>
+	      <th>필수</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>upfile</td>
+	      <td>업로드 파일</td>
+	      <td></td>
+	      <td><i class="icon-ok-sign"/></td>
+	    </tr>	  	
+	    <tr>
+	      <td>type</td>
+	      <td>Specifies the type of the input file (js|css)</td>
+	      <td>파일확장자</td>
+	      <td></td>
+	    </tr>	  	
+	    <tr>
+	      <td>charset</td>
+	      <td>Read the input file using charset</td>
+	      <td>utf-8</td>
+	      <td></td>
+	    </tr>
+	     <tr>
+	      <td>linebreak</td>
+	      <td>Insert a line break after the specified column number</td>
+	      <td>1000</td>
+	      <td></td>
+	    </tr>
+	  </tbody>
+	</table>
+
+	<h2>소스 </h2>
+	<p><a href=""></a></p>
+</div>
+
+
+
+
+</body>
+</html>
