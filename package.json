@@ -12,6 +12,6 @@
   "homepage": "uix.kr",
   "repository": {
     "type": "git",
-    "url": "git@dgit.co:aji/yuicompressor-online.git"
+    "url": "https://github.com/niceaji7/yuicompressor-online"
   }
 }
